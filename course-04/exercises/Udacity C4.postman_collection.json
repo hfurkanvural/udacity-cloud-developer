@@ -110,12 +110,12 @@
 									"raw": "{\n\t\"title\": \"New image\"\n}"
 								},
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups/1/images",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups/1/images",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -154,12 +154,12 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups/1/images",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups/1/images",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -198,12 +198,12 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups/1/images",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups/1/images",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -229,12 +229,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -268,12 +268,12 @@
 									"raw": "{\n\t\"name\": \"Postman\",\n\t\"description\": \"Photos of Postman tool\"\n}"
 								},
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups/",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups/",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -303,12 +303,12 @@
 									"raw": "{\n\t\"name\": \"New\",\n\t\"description\": 1234\n}"
 								},
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -326,12 +326,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/groups/1",
+									"raw": "https://{{apiId}}.execute-api.eu-central-1.amazonaws.com/dev/groups/1",
 									"protocol": "https",
 									"host": [
 										"{{apiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -377,12 +377,12 @@
 									"raw": "{\n\t\"title\": \"Test\"\n}"
 								},
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups/3b62d8a4-e5bd-4f29-b7e6-74f5fb967208/images",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups/3b62d8a4-e5bd-4f29-b7e6-74f5fb967208/images",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -408,12 +408,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -447,12 +447,12 @@
 									"raw": "{\n\t\"name\": \"New prod group - sanity check\",\n\t\"description\": \"New prod group description\"\n}"
 								},
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups/",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups/",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -482,12 +482,12 @@
 									"raw": "{\n\t\"name\": \"New\",\n\t\"description\": 1234\n}"
 								},
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -505,12 +505,12 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups/3be2e963-4e18-49ab-b016-9ce69a38df49",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups/3be2e963-4e18-49ab-b016-9ce69a38df49",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -529,12 +529,12 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "https://{{prodApiId}}.execute-api.us-east-1.amazonaws.com/prod/groups/d628b9e9-fae9-4756-ac66-4ac942249a28",
+									"raw": "https://{{prodApiId}}.execute-api.eu-central-1.amazonaws.com/prod/groups/d628b9e9-fae9-4756-ac66-4ac942249a28",
 									"protocol": "https",
 									"host": [
 										"{{prodApiId}}",
 										"execute-api",
-										"us-east-1",
+										"eu-central-1",
 										"amazonaws",
 										"com"
 									],
@@ -583,12 +583,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{helloApiId}}.execute-api.us-east-1.amazonaws.com/dev/hello",
+							"raw": "https://{{helloApiId}}.execute-api.eu-central-1.amazonaws.com/dev/hello",
 							"protocol": "https",
 							"host": [
 								"{{helloApiId}}",
 								"execute-api",
-								"us-east-1",
+								"eu-central-1",
 								"amazonaws",
 								"com"
 							],

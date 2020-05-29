@@ -1,12 +1,34 @@
-import 'source-map-support/register'
+import 'source-map-support/register';
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
+import { CreateTodoRequest } from '../../requests/CreateTodoRequest';
+import { createTodo } from '../../businessLogic/todos';
+import * as middy from 'middy'
+import { cors } from 'middy/middlewares'
 
-import { APIGatewayProxyEvent, APIGatewayProxyHandler, APIGatewayProxyResult } from 'aws-lambda'
+export const handler = middy(async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
+  const newTodo: CreateTodoRequest = JSON.parse(event.body);
 
-import { CreateTodoRequest } from '../../requests/CreateTodoRequest'
+  if (!newTodo.name) {
+    return {
+      statusCode: 400, //Bad Request
+      body: JSON.stringify({
+        error: 'Todo input criteria faulty'
+      })
+    };
+  }
 
-export const handler: APIGatewayProxyHandler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
-  const newTodo: CreateTodoRequest = JSON.parse(event.body)
+  handler.use(
+    cors({
+      credentials: true
+    })
+  )
 
-  // TODO: Implement creating a new TODO item
-  return undefined
-}
+  const todoItem = await createTodo(event, newTodo);
+
+  return {
+    statusCode: 201, //Created
+    body: JSON.stringify({
+      item: todoItem
+    })
+  };
+})
